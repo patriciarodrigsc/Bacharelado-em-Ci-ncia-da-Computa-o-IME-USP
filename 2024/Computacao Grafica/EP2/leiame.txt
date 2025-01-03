@@ -1,0 +1,18 @@
+•	Introdução: 
+O jogo em questão é uma pescaria em 2D . Os elementos do jogo incluem:
+		Peixes: Existem peixes representados por polígonos de 4, 8 e 16 vértices. Eles possuem diferentes velocidades, cores, tamanhos e posições iniciais aleatórias, movendo-se livremente pelo mar.
+		Areia e Arpão: Na parte inferior do cenário, há uma camada de areia. O arpão, representado por uma figura em formato de triângulo, só se move no eixo x ao longo da areia. O jogador pode controlar o arpão para a esquerda (tecla "a") e para a direita (tecla "d").
+		Bolha: Para capturar um peixe, é possível atirar uma bolha usando a tecla "s". A bolha é lançada a partir da ponta do arpão com velocidade constante. Se a bolha atingir um peixe, ela o captura, fazendo com que tanto a bolha quanto o peixe desapareçam.
+		Controles: O jogo oferece a funcionalidade de pausar e retomar a partida ao pressionar a tecla "jogar/pausar".
+Para implementar esses elementos, foram utilizadas as funções gera(elemento) e desenha(elemento), responsáveis pela criação
+
+Na funcao passo, os elementos todos tem suas novas posições calculadas e sao redesenhados na tela pela funcao requesta animation frame
+
+	•	Horas de trabalho: aproximadamente 15 horas por semana por duas semanas 
+	•	por semana aproximadamente 15 horas
+	•	total 30 horas no total aproximadamente
+	•	
+	•	Dificuldades: Como usar a funcao requestAnimationFrame para redesenhar os elementos da tela em locais diferentes. Percebi que podia chama-la apenas uma vez e que tinha que atualizar toda cena antes de chama-la.
+	•	Como guardar os valores de todos os elementos para posteriores cálculos e atualizações. Para isso usei variáveis  e vetores de estados globais.
+	•	Calcular a colisão foi uma desafio no inicio, mas posteriormente percebi que o jeito mais fácil de fazer isso era verificando a diferença de distancia de todas as balas na cena em relação a todos os peixes e que, caso essa distancia fosse menor que o raio, o elemento ela deletado 
+	•	Bugs: o jogo nao inicia pausado e sim rodando e era para ser o contrario.

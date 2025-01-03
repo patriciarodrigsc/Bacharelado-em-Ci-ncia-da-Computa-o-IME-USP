@@ -1,0 +1,72 @@
+canvas {
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  .styled {
+    padding: 15px;
+    text-align: center;
+    background-color: #7e57c2; /* Cor de fundo modificada */
+    border: 1px solid #5e35b1; /* Cor da borda modificada */
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px; /* Borda mais arredondada */
+    color: white; /* Cor do texto */
+  }
+  
+  .styled:hover {
+    background-color: #9575cd; /* Cor de fundo modificada no hover */
+  }
+  
+  .styled:nth-child(3n+1) {
+    border-right: none;
+  }
+  
+  .styled:nth-child(3n) {
+    border-left: none;
+  }
+  
+  .styled:last-child {
+    grid-column: span 3;
+    border-radius: 0 0 20px 20px; /* Borda arredondada apenas na última célula */
+  }
+  
+  .styled4 {
+    grid-column: span 3;
+    border-radius: 20px; /* Borda mais arredondada */
+    background-color: #ffb2d9; /* Cor de fundo modificada */
+  }
+  
+  .keyboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para o contêiner da matriz de botões */
+  .button-matrix {
+    display: flex;
+    flex-direction: column; /* Organizar as linha verticalmente */
+  }
+  
+  /* Estilo para cada linha de botões */
+  .button-row {
+    display: flex;
+  }
+  
+  /* Estilo para os botões */
+  .button {
+    margin: 5px; /* Espaçamento entre os botões */
+  }
+  
