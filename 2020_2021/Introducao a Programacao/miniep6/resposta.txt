@@ -1,0 +1,3 @@
+Escreva, neste arquivo, sua resposta para a pergunta da parte 2.2 do MiniEP6. Descreva brevemente o que você observou ao executar mostra_n(20). Não precisa entrar em detalhes! Basta 2 ou 3 linhas. 
+R: Percebi que o primeiro impar (que somado com os próximos n impares resulta em n³) tem o índice da soma dos números menores que ele + 1
+ex: para n = 3, temos o primeiro imp = 7, o indice é 1 + 2 + 3(soma de 1 a n) + 1 = 7.

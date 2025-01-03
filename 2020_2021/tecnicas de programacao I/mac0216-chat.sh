@@ -1,0 +1,26 @@
+#!/bin/bash
+#  AO PREENCHER(MOS) ESSE CABEÇALHO COM O(S) MEU(NOSSOS) NOME(S) E
+#  O(S) MEU(NOSSOS) NÚMERO(S) USP, DECLARO(AMOS) QUE SOU(MOS) O(S)
+#  ÚNICO(S) AUTOR(ES) E RESPONSÁVEL(IS) POR ESSE PROGRAMA. TODAS AS
+#  PARTES ORIGINAIS DESSE EXERCÍCIO PROGRAMA (EP) FORAM DESENVOLVIDAS
+#  E IMPLEMENTADAS POR MIM(NÓS) SEGUINDO AS INSTRUÇÕES DESSE EP E QUE
+#  PORTANTO NÃO CONSTITUEM DESONESTIDADE ACADÊMICA OU PLÁGIO. DECLARO
+#  TAMBÉM QUE SOU(MOS) RESPONSÁVEL(IS) POR TODAS AS CÓPIAS DESSE
+#  PROGRAMA E QUE EU(NÓS) NÃO DISTRIBUÍ(MOS) OU FACILITEI(AMOS) A SUA
+#  DISTRIBUIÇÃO. ESTOU(AMOS) CIENTE(S) QUE OS CASOS DE PLÁGIO E
+#  DESONESTIDADE ACADÊMICA SERÃO TRATADOS SEGUNDO OS CRITÉRIOS
+#  DIVULGADOS NA PÁGINA DA DISCIPLINA. ENTENDO(EMOS) QUE EPS SEM
+#  ASSINATURA NÃO SERÃO CORRIGIDOS E, AINDA ASSIM, PODERÃO SER PUNIDOS
+#  POR DESONESTIDADE ACADÊMICA.
+#
+#  Nome(s) :
+#  NUSP(s) :
+#
+#  Referências: Com exceção das rotinas fornecidas no enunciado e em
+#  sala de aula, caso você(s) tenha(m) utilizado alguma referência,
+#  liste(m) abaixo para que o programa não seja considerado plágio ou
+#  irregular.
+# 
+#  Exemplo:
+#  - O algoritmo Quicksort foi baseado em
+#  http://www.ime.usp.br/~pf/algoritmos/aulas/quick.html

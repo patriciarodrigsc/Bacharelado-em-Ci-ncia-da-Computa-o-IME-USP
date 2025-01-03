@@ -1,0 +1,50 @@
+function teoremaResto()
+equacoes = 0
+  println("Digite o número de equações")
+  equacoes = readline()
+  equacoes = parse(Int64,equacoes)
+  u = Array{Union{Missing, Int}}(missing, 1, equacoes)
+  v = Array{Union{Missing, Int}}(missing, 1, equacoes)
+  in = Array{Union{Missing, Int}}(missing, 1, equacoes)
+  con = Array{Union{Missing, Int}}(missing, 1, equacoes)
+  sim = 0
+  resto = 0
+  mod = 1
+  aux = ""
+  aux1 = 0
+  for i in 1:equacoes
+     println("Digite os termos a, tais que a mod  b seja a estrutura das equações")
+     aux = readline()
+     aux1 = parse(Int64,aux)
+     u[i] = aux1
+  end
+  for j in 1:equacoes
+     println("Digite os termos b, tais que a mod b seja a estrutura das equações")
+     aux = readline()
+     aux1 = parse(Int64,aux)
+     v[j]  = aux1
+    mod = mod * v[j]
+  end
+
+  for n1 in 1:equacoes
+    con[n1] = mod/ v[n1]
+  end
+
+  for n2 in 1:equacoes
+    sim = con[n2] % v[n2]
+    for n3 in 2:v[n2]
+      resto = sim*n3 % v[n2]
+      if resto == 1
+        in[n2] = n3;
+      end
+    end
+  end
+   soma = 0
+   for n4 in 1:equacoes
+    soma = soma + u[n4] * in[n4] * con[n4]
+   end
+
+   soma = soma % mod
+   println(soma)
+end
+teoremaResto()

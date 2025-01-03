@@ -1,0 +1,55 @@
+/***** MAC0110 - EP3 *****/
+  Nome: <PATRÍCIA DA SILVA RODRIGUES>
+  NUSP: <11315590>
+
+/***** Parte 1 - Entendendo o código *****/
+
+    1) Qual a probabilidade de um elemento da matriz ser grama (ou terreno)? Você pode expressar essa possibilidade utilizando um valor numérico ou uma fórmula.
+
+        Resposta: A probabilidade será 0,9945 (99,45%, aproximadamente 99%). Essa probabilidade pode ser dada pela função a baixo:
+	
+	p(T) = 1 - (probabilidaadeLobo * (probabilidadeLobo + probabilidadeCoelho) * (probabilidadeLobo + probabilidadeCoelho + probabilidadeComida)
+
+	Desta maneira, 1 equivale ao espaço amostral e dele eu substitui as probabilidades de haver qualquer outros elemento que não seja terreno.
+	Portanto, a conta será:
+	P(T) = 1 -((5/100) * (5/100 + 15/100) * (5/100 + 15/100 + 35/100)
+	
+
+    2) Analise o código e diga: qual a diferença entre o terreno e o terreno especial?
+
+        R: A probabilidade de uma determinada célula da matriz ter "terreno especial" ao invés de "terreno" é de 0,01(porque a probabilidade da função rand() gerrar um
+	valor inferior a 0,01 é de 0,01, uma ve que o espaço amostralda função contém números que vão de 0,000... até 0,999...). Portanto, o que diferencia os dois 
+	terrenos é que o terreno especial é bem mais raro que o terreno comum.
+
+    3) Dados os valores iniciais das constantes, qual a energia necessária para um lobo se reproduzir? E um coelho?
+
+        R: Tendo em vista que o fator de reprodução é de 2, temos que a energia necessária para um lobo se reproduzir é de 20 e para um coelho 12.
+
+/***** Parte 2 - Completando as funções *****/
+
+    4) Ao contrário das funções ocupa_vizinho! e reproduz!, a função morre! não recebe a matriz de energia como parâmetro. Por quê não é necessário alterar a energia com a morte de um animal?
+
+        R:  Os produtores(gramas) são seres autótrofos, ou seja, produzem sua própria energia e não necessita, nesta simulação, da decomposição de matéria organica para possuirem a mesma quantidade
+	de energia que têm originalmente. Elas surgem quando um animal morre, de modo que fica subtendido que a energia gerda pela planta é autosuficiente para a existencia da simulação. No entanto, caso o 
+	estabelecido não fosse ideal como este, mudanças no ecossistema, como aumento populacional dos coelhos, poderiam tornar o sstema insustentável de uma maneira inverossímel, visto que a capitação de energia pela decomposição não estaria sendo feita.
+	A princípio, a biologia define que a energia gerada pela decomposição de um ser vivo é absorvida pelo meio, porém neste caso, por não haver uma interação entre a energia fornecida pela grama 
+	e os animais que ali estão(eles não estão se alimentando nessa simulação), o sistema não está sendo afetado mesmo com essa defasagem. No entanto, conforme a simulação vá se tornando mais realista, a demanda pela capitação através da decomposição e a 
+	geração de energia pela alimentação dos animais passaria a se tornar mais relevante.
+
+	
+	
+/***** Parte 3 - Teste e simulação *****/
+
+    5) Usando os valores iniciais das constantes e após uma quantidade considerável de iterações, mais de 30, por exemplo, o que acontece na ilha?
+
+        <RESPONDA AQUI>
+
+    6) Qual combinação de constantes leva a ilha a ser dominada por coelhos? Utilize uma ilha de tamanho 20 ou mais, e simule utilizando uma quantidade considerável de iterações.
+
+        O aumento populacional dos coelhos poderia ser gerado pela diminuição do seu predados, os lobos. A diminuição da população dos lobos poderia ser gerada pela diminuição da natalidade e reprodução dos lobos e isso pode acontecer com o aumento da energia necessária para a reprodução.
+	Portanto, o aumento populacional dos coelhos pode ser gerado aumentando a constante de energia dos lobos.
+
+    7) Qual combinação de constantes leva a ilha não ter nenhum animal? Utilize uma ilha de tamanho 20 ou mais, e simule utilizando uma quantidade considerável de iterações.
+	O que poderia levar a ilha a não ter nenhum animal  seria a extinção dos coelhos, visto que desta forma tanto o coelho quanto o lobo deixariam de existir, pois o lobo preda o coelho.
+	Portanto o que levaria a inexistencia de qualquer animal na ilha seria zerar a energia do coelho.
+         
