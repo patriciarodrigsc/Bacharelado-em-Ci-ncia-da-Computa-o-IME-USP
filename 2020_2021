@@ -1,0 +1,9 @@
+<script>start("/Users/patricia/Desktop/apoio/CURSO_BACHAREL/2020_2021/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("Algebra Booleana","Algebra%20Booleana",1,192,"192 B",1735887839,"03/01/2025, 04:03:59");</script>
+<script>addRow("Algebra Linear","Algebra%20Linear",1,128,"128 B",1735887152,"03/01/2025, 03:52:32");</script>
+<script>addRow("Estrutura de Dados I","Estrutura%20de%20Dados%20I",1,256,"256 B",1735893930,"03/01/2025, 05:45:30");</script>
+<script>addRow("Fundamentos da Matemática para a Computacao ","Fundamentos%20da%20Matem%C3%A1tica%20para%20a%20Computacao%20",1,160,"160 B",1735885429,"03/01/2025, 03:23:49");</script>
+<script>addRow("Introducao a Lógica e Verificacao de Programas","Introducao%20a%20L%C3%B3gica%20e%20Verificacao%20de%20Programas",1,160,"160 B",1735886889,"03/01/2025, 03:48:09");</script>
+<script>addRow("Introducao a Programacao","Introducao%20a%20Programacao",1,480,"480 B",1735886619,"03/01/2025, 03:43:39");</script>
+<script>addRow("tecnicas de programacao I","tecnicas%20de%20programacao%20I",1,96,"96 B",1735884934,"03/01/2025, 03:15:34");</script>
