@@ -1,7 +1,0 @@
-<script>start("/Users/patricia/Desktop/apoio/CURSO_BACHAREL/2024/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("Computacao Grafica","Computacao%20Grafica",1,160,"160 B",1735890939,"03/01/2025, 04:55:39");</script>
-<script>addRow("Métodos Numericos","M%C3%A9todos%20Numericos",1,192,"192 B",1735891318,"03/01/2025, 05:01:58");</script>
-<script>addRow("Pesquisa (MAC0215)","Pesquisa%20(MAC0215)",1,96,"96 B",1735894116,"03/01/2025, 05:48:36");</script>
-<script>addRow("TCC","TCC",1,160,"160 B",1735894415,"03/01/2025, 05:53:35");</script>
-<script>addRow("Visao e Processamento de Imagens","Visao%20e%20Processamento%20de%20Imagens",1,224,"224 B",1735891664,"03/01/2025, 05:07:44");</script>
