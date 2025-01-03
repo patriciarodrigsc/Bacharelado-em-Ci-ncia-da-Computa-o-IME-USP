@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/include-graphics-h-codeblocks/
+
+PARA GERAR OS FRACTAIS É IMPORTANTE INSTALAR O #include graphcs.h porque eu não consegui gerar o fractal usando o gnuplot, mas o código gera tudo com a função putpixel.
